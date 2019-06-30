@@ -122,9 +122,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var flarum_extend__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(flarum_extend__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var flarum_app__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! flarum/app */ "flarum/app");
 /* harmony import */ var flarum_app__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(flarum_app__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var flarum_components_HeaderPrimary__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! flarum/components/HeaderPrimary */ "flarum/components/HeaderPrimary");
+/* harmony import */ var flarum_components_HeaderPrimary__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(flarum_components_HeaderPrimary__WEBPACK_IMPORTED_MODULE_2__);
 
 
-flarum_app__WEBPACK_IMPORTED_MODULE_1___default.a.initializers.add('pcnnet-decor', function () {});
+
+flarum_app__WEBPACK_IMPORTED_MODULE_1___default.a.initializers.add('pcnnet-decor', function () {
+  Object(flarum_extend__WEBPACK_IMPORTED_MODULE_0__["extend"])(flarum_components_HeaderPrimary__WEBPACK_IMPORTED_MODULE_2___default.a.prototype, 'items', function (items) {
+    items.add('Old Forum', m("a", {
+      "class": "pcnnet-decor-navlink",
+      href: "https://peacefulcraft.webs.com"
+    }, flarum_app__WEBPACK_IMPORTED_MODULE_1___default.a.translator.trans("flarum-pcnnet-decor.forum.navigation.old-forum")));
+    items.add('Ban List', m("a", {
+      "class": "pcnnet-decor-navlink",
+      href: "https://adm.peacefulcraft.net/batweb"
+    }, flarum_app__WEBPACK_IMPORTED_MODULE_1___default.a.translator.trans("flarum-pcnnet-decor.forum.navigation.ban-list")));
+  });
+});
 
 /***/ }),
 
@@ -136,6 +150,17 @@ flarum_app__WEBPACK_IMPORTED_MODULE_1___default.a.initializers.add('pcnnet-decor
 /***/ (function(module, exports) {
 
 module.exports = flarum.core.compat['app'];
+
+/***/ }),
+
+/***/ "flarum/components/HeaderPrimary":
+/*!*****************************************************************!*\
+  !*** external "flarum.core.compat['components/HeaderPrimary']" ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = flarum.core.compat['components/HeaderPrimary'];
 
 /***/ }),
 

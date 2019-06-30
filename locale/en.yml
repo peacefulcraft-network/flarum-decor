@@ -1,1 +1,5 @@
 flarum-pcnnet-decor:
+  forum:
+    navigation:
+      old-forum: Old Forum
+      ban-list: Ban List
