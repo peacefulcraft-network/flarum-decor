@@ -1,0 +1,35 @@
+{
+    "name": "pcnnet/flarum-pcnnet-decor",
+    "description": "Extra decoration for the PeacefulCraft Network Flarum Forum",
+    "type": "flarum-extension",
+    "keywords": ["authentication"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Parsonswy",
+            "email": "parsonswy@gmail.com"
+        }
+    ],
+    "require": {
+        "flarum/core": "^0.1.0-beta.8.1",
+        "wohali/oauth2-discord-new": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "pcnnet\\discord\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "PCN Flarum Decor",
+            "icon": {
+                "name": "fas fa-seedling",
+                "backgroundColor": "#00A612",
+                "color": "#FFF"
+            }
+        }
+    }
+}
