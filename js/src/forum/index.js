@@ -18,6 +18,12 @@ app.initializers.add('pcnnet-decor', () => {
       </a>
     );
 
+    items.add('Trench Stats', 
+      <a class="pcnnet-decor-navlink" href="https://player.peacefulcraft.net/"> 
+        {app.translator.trans("flarum-pcnnet-decor.forum.navigation.trench-stats")} 
+      </a>
+    );
+
   });
 
 });
