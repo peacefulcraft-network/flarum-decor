@@ -13,11 +13,11 @@ ul.TagTiles li{
 }
 
 .Button-icon{
-  color: #909090;
+  color: #202020;
 }
 
 .Button-label{
-  color: #909090;
+  color: #202020;
 }
 ```
 
