@@ -22,6 +22,9 @@ ul.TagTiles li{
 ```
 
 ### Tags and Colors
+Old Primaries (Dark Mode): #8AAD9A #739FA7
+Primary Colors: #A9DCA9 #000000
+
 * General: #1F618D
 * PvE: #2471A3
 * Plot: #2980B9
