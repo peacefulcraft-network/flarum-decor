@@ -24,6 +24,18 @@ app.initializers.add('pcnnet-decor', () => {
       </a>
     );
 
+    items.add('Discord',
+      <a class="pcnnet-decor-navlink" href="https://discord.peacefulcraft.net/"> 
+        {app.translator.trans("flarum-pcnnet-decor.forum.navigation.discord-link")} 
+      </a>
+    );
+
+    items.add('Server Status',
+      <a class="pcnnet-decor-navlink" href="https://status.peacefulcraft.net/"> 
+        {app.translator.trans("flarum-pcnnet-decor.forum.navigation.server-status")} 
+      </a>
+    );
+
   });
 
 });
