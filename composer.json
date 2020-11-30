@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "flarum/core": "^0.1.0-beta.8.1"
+        "flarum/core": "^0.1.0-beta.14.1"
     },
     "autoload": {
         "psr-4": {
@@ -19,7 +19,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.1.x-dev"
+            "master": "0.14.x-dev"
         },
         "flarum-extension": {
             "title": "PCN Flarum Decor",
